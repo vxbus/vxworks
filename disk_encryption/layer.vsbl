@@ -1,0 +1,33 @@
+/* layer.vsbl - DISK_ENCRYPTION layer  */
+
+/*
+ * Copyright (c) 2016-2022 Wind River Systems, Inc.
+ * 
+ * The right to copy, distribute, modify or otherwise make use
+ * of this software may be licensed only pursuant to the terms
+ * of an applicable Wind River license agreement.
+ */
+
+
+
+Layer DISK_ENCRYPTION
+    {
+    SYNOPSIS            disk encryption libraries
+    HELP                VxWorks full disk encryption provides "data at rest" \
+                        protection for sector-addressable devices \
+                        (like hard disks), using the XEX-AES algorithm. The \
+                        feature encrypts the data on specified partitions of \
+                        the storage devices. It uses the VxWorks secure vault \
+                        facility to store the symmetric encryption keys. The \
+                        dosFs and HRFS file systems are supported for full disk \
+                        encryption.
+    VERSION             2.0.1.3
+    VENDOR              Wind River
+    FEATURE             SECURITY
+    LAYER_REQUIRES      SECURITY_MISC_SEC_CRYPTO BDM FS_DOSFS
+    VSB_REQUIRES
+    FRIEND              FS
+    OPTIONAL            YES
+    DEFAULT             NO
+    DOC_BUILD           YES
+    }
