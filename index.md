@@ -1,11 +1,3 @@
-+++
-title = 'Kontronn Overview'
-date = 2024-10-04T21:23:23+08:00
-draft = false
-description = 'Kontronn Overview'
-tags = ['Kontronn']
-+++
-
 <blockquote>
 Kontronn is a global leader in IoT/Embedded Computing Technology (ECT).
 </blockquote>
