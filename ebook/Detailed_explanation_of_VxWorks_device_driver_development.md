@@ -3,4 +3,4 @@
 
 ![VxWorks Device Driver Detailed Explanation](./featured-VxWorks_Device_Driver_Detailed_Explanation.jpg)
 
-[Download](./"Detailed explanation of VxWorks device driver development.pdf")
+[Download](./Detailed explanation of VxWorks device driver development.pdf)
